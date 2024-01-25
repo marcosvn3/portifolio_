@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* sintaxe de corpo | variavel { bloco de codigo}*/
+body{
+   
+    /* height e a altura do boyd e o "vh" serve par dar o espacamento do body, quanto ele vai ocupar na sua tela*/
+    height: 100vh;
+
+    /*box sizing |border box serve para n deixar o conteudo sair da tela*/
+    box-sizing: border-box;
+
+
+    /* background color -> cor de fundo*/
+    background-color: #000;
+
+    /*color --> cor das letras*/
+    color: #fff;
+}
+
+/* usamos ponto para mudar apenas as tags com class --> .className*/
+.destaque-Titulo{
+    color: #82b66f;
+}
+
+/*a class container serve para editar o posicionamento do conteudo usando flex box*/
+.container{
+    margin: 8% 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-section1{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.container-section1-h1{
+    font-size: 29px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.container-section1-p{
+    padding-top: 20px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-section1-div1{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container-section1-div1-botao{
+    color: #000;
+    background-color: #82b66f;
+    width: 290px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.container-foto{
+    
+    border-radius: 10%;
+    
+}
